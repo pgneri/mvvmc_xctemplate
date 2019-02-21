@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>A class implementing a unit test.</string>
+	<key>Summary</key>
+	<string>A class implementing a unit test</string>
+	<key>SortOrder</key>
+	<string>4</string>
+	<key>BuildableType</key>
+	<string>Test</string>
+	<key>DefaultCompletionName</key>
+	<string>TestsCoordinator</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>Name</string>
+			<key>Name</key>
+			<string>Module:</string>
+			<key>NotPersisted</key>
+			<string>YES</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_Name:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_Name:identifier___CoordinatorTests</string>
+			<key>Description</key>
+			<string>Name of the unit test class</string>
+			<key>Identifier</key>
+			<string>unitTestsName</string>
+			<key>Name</key>
+			<string>Unit test class:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>XCTestCase</string>
+			<key>Description</key>
+			<string>Unit test class that the new class will be a subclass of</string>
+			<key>Identifier</key>
+			<string>testSubclass</string>
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>class</string>
+			<key>Values</key>
+			<array>
+				<string>XCTestCase</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
